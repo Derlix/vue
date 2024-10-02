@@ -9,7 +9,7 @@ import FormCheckRadio from '@/components/FormCheckRadio.vue'
 import FormField from '@/components/FormField.vue'
 import FormControl from '@/components/FormControl.vue'
 import BaseButton from '@/components/BaseButton.vue'
-import LayoutGuest from '@/layouts/LayoutGuest.vue'
+import LayoutGuest from '@/layouts/LayoutGuest.vue' 
 
 const form = reactive({
     login: '',
@@ -81,7 +81,7 @@ const handleLogin = async () => {
         <SectionFullScreen bg="white">
             <CardBox is-form @submit.prevent="handleLogin" class="sm:w-3/6 md:w-3/5 lg:w-3/6 xl:w-2/6 mx-auto">
                 <div class="flex justify-center mb-4">
-                    <img src="src/assets/img/sena-agro.png" alt="Logo Sena" class="w-12 sm:w-16">
+                    <img src="../../../src/assets/img/sena-agro.png" alt="Logo Sena" class="w-12 sm:w-16">
                 </div>
                 <h1 class="text-center mb-4 font-bold text-lg sm:text-xl">Iniciar Sesión</h1>
     

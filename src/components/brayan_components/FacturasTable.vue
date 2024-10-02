@@ -841,7 +841,7 @@ function fechaActual() {
 
         <div class="flex items-center">
 
-          <img src="src/assets/img/sena-agro.png" alt="" style="width: 70px; margin-right: 5px;">
+          <img src="../../../src/assets/img/sena-agro.png" alt="" style="width: 70px; margin-right: 5px;">
         </div>
 
       </div>
